@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.main{
+    height:650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:url('http://fc05.deviantart.net/fs32/f/2008/227/4/a/Ibex_Wallpaper_by_willwill100.png');
+ */
+ background: url(https://res.cloudinary.com/pendragon/image/upload/v1668802784/wood-background-pattern-02_wpahdy.jpg);
+	background-color: #424242;
+}
+.calculate{
+    background-color: #f6f8fa;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px 5px 12px rgba(0,0,0,.16);
+    display:flex;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+    
+}
+input{
+    grid-column: span 4;
+    height:100px;
+    width: 270px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70,70,70);
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: end;
+}
+button{
+    height:50px;
+    width:50px;
+    background-color:rgb(245, 245, 245);
+    border :none;
+    border-radius: 10px;
+    margin: 8px;
+    font-size: 18px;
+    row-gap: 12px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px 5px 12px rgba(0,0,0,.16);
+                font-size: 20px;
+   
+ }
+  
